@@ -58,7 +58,7 @@ namespace TestWorkMB.Figures
                 shape = Math.Sqrt(p * (p - A) * (p - B) * (p - C));
             }
 
-            return shape;
+            return Math.Round(shape, 3);
         }
     }
 }

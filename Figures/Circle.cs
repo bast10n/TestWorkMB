@@ -17,7 +17,8 @@ namespace TestWorkMB.Figures
 
         public override double Shape()
         {
-            return Math.PI * Radius * Radius;
+            double shape = Math.PI * Radius * Radius;
+            return Math.Round(shape, 3);
         }
     }
 }
